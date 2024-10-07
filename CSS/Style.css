@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, sans-serif; /* Fuente de del texto */
+    font-family: Verdana, sans-serif; /* Fuente de el texto */
 }
 /* Barra de navegacion lista */
 nav ul {
@@ -30,5 +30,94 @@ nav a:hover{
 /* Hover fondo item navegacion */
 .nav-item:hover {
     background-color: rgb(255, 255, 255); /* Cambiar color de fondo de item nav al pasar el cursor */
+}
+/* Footer */
+footer {
+    position: fixed; /* Se posiciona en relacion con la ventana del navegador */
+    bottom: 0; /* Fijar en la parte inferior de la ventana */
+    background-color: rgb(0, 0, 0); /* color del fondo del footer */
+    width: 100%; /* Ocupa todo el ancho de la ventana */
+    height: 200px; /* El tamaño de largo del footer */
+}
+.item {
+    padding: 5px; /* Espacio alrededor*/
+    display: flex; /* Se posicionan los elementos uno al lado del otro */
+    align-items: center; /* Se centran elementos verticalmente */
+    gap: 100px; /* Espacio entre items */
+    height: 92%; /* Ocupa el 92% del alto del footer */
+    justify-content: center; /* Se centran los items horizontalmente */
+}
+ /* Seccion 1 footer */
+.content {
+    height: 50px; 
+    width: 160px;
+    margin-bottom: 100px; /* Margen en hacia abajo */
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-right: 100px;
+}
+ /* Texto footer titulo */
+.text1 {
+    color: white;
+    font-weight: bold;
+}
+ /* linea */
+hr {
+    width: 95%; /* Largo de la linea */
+    height: 2px; /* Grosor de la linea */
+    background-color: rgb(255, 0, 255); /* Color de la línea */
+    border: none; /* Eliminar borde */
+    margin-left: 5px;
+}
+ /* Descripcion footer*/
+ .text2 {
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-bottom: 150px;
+ }
+ /* Seccion 2 y 3 footer */
+ .seccion {
+    margin-bottom: 5px;
+ }
+.seccion, .contact {
+    font-size: 10px;
+    color: white;
+    list-style: none; /* Elimina los marcadores de la lista */
+}
+.seccion a, .contact a{
+    color: white;
+    text-decoration: none; /* Elimina el subrayado */
+}
+.seccion-item, .contact-item{
+    padding: 5px;
+}
+.seccion-item-t {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #00ffff;
+}
+.seccion-item :hover, .contact-item :hover{
+    color: rgb(255, 0, 255);
+}
+.contact {
+    margin-bottom: 30px;
+}
+ /* Copyright */
+.copy {
+    color: white;
+    font-size: 8px;
+    text-align: center; /* Centrar copyright horizontalmente */
+}
+/* Seccion redes */
+.tam-icon {
+    height: autopx;
+    width: 40px;
+    margin: 10px;
+    margin-bottom: 75px;
+}
+.social {
+    margin-left: 100px;
 }
 
