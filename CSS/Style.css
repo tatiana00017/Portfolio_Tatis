@@ -2,7 +2,7 @@ html, body {
     font-family: Verdana, sans-serif;
     box-sizing: border-box;
     margin: 0;
-    background-color: hsla(65, 100%, 95%, 0.678);
+    background-color: #fce7eb;
 }
 header {
     position: fixed;

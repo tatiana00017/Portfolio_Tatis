@@ -1,0 +1,33 @@
+main {
+    margin-bottom: 50PX;
+}
+.title {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 4px 6px #00ffff;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+#pdf-canvas {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc; /* Opcional, para agregar un borde */
+}
+p {
+    margin-top: 10px;
+}
+.text-cv {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
