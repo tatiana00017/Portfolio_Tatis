@@ -3,6 +3,7 @@ html, body {
     box-sizing: border-box;
     margin: 0;
     background-color: #fce7eb;
+    scroll-behavior: smooth;
 }
 header {
     position: fixed;
